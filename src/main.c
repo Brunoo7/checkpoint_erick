@@ -2,6 +2,7 @@
 
 int main() {
     void menu() {
+        printf("   SISTEMA ACADEMICO\n");
 }
     
 

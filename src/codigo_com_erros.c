@@ -11,7 +11,7 @@ int main() {
 
     media = (nota1 + nota2) / 2; //"Consertei a fórmula de cálculo da média"
 
-    if (media = 6) {
+    if (media >= 6) { //"Consertei a condição para aprovação (media >= 6)"
         printf("Aluno aprovado\n");
     } else {
         printf("Aluno reprovado\n");

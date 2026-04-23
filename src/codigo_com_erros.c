@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include <stdio.h> //"Tirar aspas e incluir <>"
 
 int main() {
     float nota1, nota2, media

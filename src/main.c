@@ -33,5 +33,12 @@ do {
                 printf("Insira as notas primeiro!\n");
             }
             break;
+        case 3:
+            if (media_calculada) {
+                mostrar_situacao(media);
+            } else {
+                printf("Calcule a media primeiro!\n");
+            }
+            break;
     return 0;
 }

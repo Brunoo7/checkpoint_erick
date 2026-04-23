@@ -14,3 +14,6 @@ Grupo de 5 integrantes
 ## Estrutura
 - `src/codigo_com_erros.c` → arquivo com erros para correção
 - `src/main.c` → arquivo principal do sistema
+
+Bruno RM:572648
+Gabriel RM:571735

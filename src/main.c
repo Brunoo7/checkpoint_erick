@@ -7,6 +7,8 @@ void menu() {
     printf("==============================\n");
     printf("1 - Inserir notas\n");
     printf("2 - Calcular media\n");
+    printf("4 - Exibir resultado\n");
+    printf("5 - Calcular derivada\n");
     printf("3 - Verificar situacao\n");
     printf("6 - Sair\n");
 }
@@ -14,6 +16,16 @@ void menu() {
 // MEDIA
 float calcular_media(float n1, float n2) {
     return (n1 + n2) / 2;
+}
+
+// SITUAÇÃO
+void mostrar_situacao(float media) {
+    if (media >= 7)
+        printf("APROVADO\n");
+    else if (media >= 5)
+        printf("RECUPERACAO\n");
+    else
+        printf("REPROVADO\n");
 }
 
 int main() {

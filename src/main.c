@@ -87,6 +87,16 @@ int main() {
                 printf("Calcule a media primeiro!\n");
             }
             break;
+        
+        case 4:
+            if (media_calculada) {
+                printf("Notas: %.2f %.2f\n", nota1, nota2);
+                printf("Media: %.2f\n", media);
+                mostrar_situacao(media);
+            } else {
+                printf("Dados incompletos!\n");
+            }
+            break;
 
         case 6:
             printf("Saindo...\n");

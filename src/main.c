@@ -28,6 +28,20 @@ void mostrar_situacao(float media) {
         printf("REPROVADO\n");
 }
 
+// DERIVADA
+void derivada() {
+    float a, b, c;
+
+    printf("Digite a: ");
+    scanf("%f", &a);
+    printf("Digite b: ");
+    scanf("%f", &b);
+    printf("Digite c: ");
+    scanf("%f", &c);
+
+    printf("f'(x) = %.2fx + %.2f\n", 2*a, b);
+}
+
 int main() {
     int opcao;
     float nota1, nota2, media;
